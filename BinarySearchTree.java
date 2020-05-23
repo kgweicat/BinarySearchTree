@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package binarysearchtree;
 
 /**
  *
- * @author Che-Wei Chou
+ * @author Che-Wei (Joanne) Chou
  */
 public class BinarySearchTree{
 
@@ -17,10 +12,10 @@ public class BinarySearchTree{
         root = null;
     }
     
-    //resursionnnnnnnnnnnnnnnnnnnnnn
+    //resursion
     private Node add(Node r, int val){
-        //empty tree
         
+        //empty tree
         if (r==null){
             r = new Node(val);
         } else if (val < r.getData()){
