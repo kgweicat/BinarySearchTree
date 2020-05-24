@@ -1,2 +1,2 @@
 # BinarySearchTree
-Writing my own binary search tree
+I wrote my own binary search tree.
